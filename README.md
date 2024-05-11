@@ -60,3 +60,32 @@ import {component} from "path"
 - client side routing
 -Server side routing
 
+
+
+# life cycle methods
+- Mounting Cycle
+
+ - Constructor
+ - Render(dummy)
+ - <Html Dummy>
+ - componentDidMount
+ - <API call>
+ - <this.setState> state variable updated
+
+- Update Cycle
+
+ - Render(API data)
+ - <HTML (new API data)>
+ - componentDidUpdate
+
+- Unmounting cycle
+ 
+ - componentWillUnmounting
+
+# optimization 
+- chunking
+- coe splitting
+- dynamic bundling
+- lazy loading
+- on demand loading
+- dynamic import
